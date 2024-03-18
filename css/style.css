@@ -1,0 +1,402 @@
+ body{
+    margin: 0%;
+    font-family: "Alegreya Sans";
+   
+ }
+ *{
+    margin: 0px;
+    box-sizing: border-box;
+ }
+ .home{
+
+    
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/drew-coffman-1872.jpg);
+    
+    background-size: 100% 100%;
+    position: relative;
+
+}
+.home .navbar{
+    background-color: rgba(0,0,0,0.5);
+    position: fixed; 
+    top: 0;
+     left: 0;
+     z-index: 9999;
+     width: 100%;
+        
+    
+}
+.home .navbar .nav{
+
+}
+
+.home .navbar .nav ul{
+
+    
+    list-style-type: none;
+    overflow: hidden;
+}
+.home .navbar .nav li
+{
+    float: left;
+    padding-inline: 20px ;  
+}
+
+.home .navbar .nav li a{
+
+    text-decoration-line: none;
+    font-weight: 700;
+    color: white;
+}
+.home .navbar .nav li a:hover{
+    color:#8e7754;
+}
+
+
+.home .navbar .logo {
+    
+   
+    height: 48px;
+   
+    float: left;
+    
+    
+    
+}
+.home .container{
+    position: absolute;
+    top:250px;
+    right:0px;
+}
+.home .container .caption{
+   
+    color: rgba(255,255,255, .92);
+    text-align: center;
+    width: 700px;
+    
+    
+    
+    
+}
+.home  .container .caption h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+    line-height: 1.2em;
+}
+.home .container .caption p{
+    font-size: 24px;
+    line-height: 1.86em;
+    margin-bottom: 10px;
+}  
+.home .container .btn {
+   
+    text-align:center;
+    font-size: 18px;
+    margin-left: 190px;
+    margin-top: 20px;
+   
+  
+}
+ .home .container .btn button{
+   
+    color: aliceblue;
+    border: 2px solid transparent;
+    padding: 15px 28px;
+    font-weight: 400;
+    border-radius: 10px;
+    
+   
+}
+.home  .container .btn .learn{
+   
+    background-color: #8e7754;
+    color: #fff;
+    border-color: transparent ;
+}
+.home  .container .btn .learn:hover{
+    background-color:#fff;
+    color: black;
+
+}
+.home .container .btn .contact{
+
+    background-color:transparent ;
+    color: #fff;
+    border-color: #fff ;
+}
+.home .container .btn .contact:hover{
+    background-color:  #fff;
+    color:black;
+
+}
+.container .circle {
+    
+    width: 30px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    margin-left: 335px;
+    margin-top: 40px;
+    position: relative;
+ 
+   
+}
+.container .circle .point{
+    height: 8px;
+  width: 8px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  position: absolute;
+  left: 10px;
+  top: 6px;
+
+
+}
+.home .setting{
+    background-color: #fff;
+    width: 50px;
+    height:90px;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+    border:1px solid transparent ;
+    border-radius: 10px;
+    position: fixed;
+    top:200px;
+    right: -3px;
+}
+.home .setting i {
+padding-top: 20px;
+
+display:block;
+
+
+}
+.home .setting i:hover{
+    color:#09c;
+}
+
+.profile{
+    
+    color: #686868;
+    overflow: hidden;
+    padding: 90px;
+
+}
+.profile .bakery{
+   
+    width: 50%;
+    float: left;
+    
+    
+}
+.profile .bakery img{
+
+    
+   
+    height: 600px;
+    
+    
+    
+}
+.profile .who
+{
+    width: 50%;
+    float: left;
+   
+   padding-top: 70px;
+    
+}
+.profile .who p
+{
+   
+    text-align:left
+   
+    
+}
+.profile .clr{
+    clear: both;
+}
+.profile .who ul{
+    list-style-type: none;
+    display: inline-block;
+    text-align: left;
+    
+}
+
+   
+   
+
+.profile .who img{
+    width: 50px;
+    height: 50px;
+    
+  
+}
+.location{
+    color: #686868;
+    overflow: hidden;
+    padding: 90px;
+    background: #d5d4d4;
+}
+.location .dis{
+    width: 50%;
+    
+    float: left;
+    text-align: left;
+    margin-top: 70px;
+    padding:0px 70px;
+}
+.location .dis p{
+padding-top: 30px;
+}
+.location .imglocation{
+
+
+width: 50%;
+float: left;
+padding:0px 70px;
+}
+.location .imglocation img {
+    width:100%;
+    height: 500px;
+   
+
+}
+.items{
+    
+    overflow: hidden;
+    font-family: "Alegreya Sans";
+      font-size: 17px;
+      text-align: center;
+      color: #686868;
+      margin-top: 10px; 
+      margin-bottom: 60px;
+      padding:20px 70px;
+}
+.items .item{
+
+text-align: center;
+width:33%;
+line-height: 1.86em;    
+box-sizing: inherit;
+font-weight: 400;
+  color: #686868;
+  float: left;
+  padding-top: 20px;
+  
+
+}
+.items .item img{
+    width: 400px;
+    
+    height: auto;
+   max-width: 100%;
+  vertical-align: top;
+}
+.items .item p{
+    padding: 0px 60px;
+}
+.items .item h2{
+    padding-top: 2%;
+}
+.contact{
+    
+    text-align: left;
+    color: #686868;
+    overflow: hidden;
+    background: #d5d4d4;
+   padding-top: 85px;
+   padding-bottom: 85px;
+}
+.contact .info{
+    
+    width: 50%;
+   float: left;  
+    
+}
+.contact .info h2{
+   text-align: left;
+   padding: 20px 60px;
+}
+.contact .info p{
+    text-align: center;
+    padding: 10px ;
+    padding-left: 30px;
+    padding-right: 80px;
+    line-height: 1.86em;
+    font-weight: 650; 
+     
+ }
+.contact .info ul{
+    list-style-type: none;
+    display: inline-block;
+    text-align: left;
+}
+.contact .info img {
+    width: 50px;
+    height: 50px;
+  
+   
+}
+.contact .map{
+
+    width:50%;
+    float: left;
+    
+}
+.footers{
+    background-color: #403d38;
+    padding: 60px;
+    overflow: hidden;
+}
+.footer{
+    color:  #d5d4d4;
+    float: left;
+    width: 25%;
+    padding: 20px;
+    
+}
+.footer ul {
+    list-style-type: none;
+    display: inline-block;
+    text-align: left;
+}
+.footer img{
+    width: 25px;
+    height: 25px;
+}
+.footer     p{
+
+    line-height: 1.86em; 
+}
+.footer h4{
+    text-align: center;
+    padding-right: 20px;
+}
+.footer .head{
+    text-align: left;
+    padding-left: 40px;
+}
+.copyright{
+    background-color: #20201e;
+    text-align: center;
+    padding-top: 35px;
+    color: #797979;
+    
+}
+.copyright img {
+
+    margin-bottom: 25px;
+  margin-top: 10px;
+}
+.copyright .social{
+    margin: auto;
+
+    width: 800px;
+}
+.copyright .social i{
+    width: 30px;
+}
